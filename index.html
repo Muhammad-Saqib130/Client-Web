@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabia - Pakistani Fashion & Beauty</title>
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ====== HEADER ====== -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Sabia<span>.</span></a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collection">Collections</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#" class="cart-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span class="cart-count">3</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ====== HERO SECTION ====== -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Discover Pakistani Elegance</h1>
+                <p>Experience the finest collection of traditional Pakistani clothing, premium cosmetics, and beauty essentials at prices that make luxury accessible to everyone.</p>
+                <div class="hero-btns">
+                    <a href="#" class="btn">Shop Now</a>
+                    <a href="#" class="btn btn-outline">New Arrivals</a>
+                </div>
+            </div>
+            
+            <div class="hero-slider">
+                <div class="slider-container" id="sliderContainer">
+                    <div class="slider-slide slide-1"></div>
+                    <div class="slider-slide slide-2"></div>
+                    <div class="slider-slide slide-3"></div>
+                    <div class="slider-slide slide-4"></div>
+                </div>
+                
+                <div class="slider-nav" id="sliderNav">
+                    <div class="slider-dot active" data-index="0"></div>
+                    <div class="slider-dot" data-index="1"></div>
+                    <div class="slider-dot" data-index="2"></div>
+                    <div class="slider-dot" data-index="3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CATEGORIES SECTION ====== -->
+    <section class="categories" id="collection">
+        <div class="container">
+            <h2 class="section-title">Our Collections</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="images/pak-dress.jpeg" alt="Pakistani Dresses" class="category-img">
+                    <div class="category-overlay">
+                        <h3>Pakistani Dresses</h3>
+                        <p>Traditional and contemporary designs that celebrate Pakistani heritage</p>
+                        <a href="#" class="btn btn-outline">View Collection</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/cosmetic.jpeg" alt="Cosmetics" class="category-img">
+                    <div class="category-overlay">
+                        <h3>Cosmetics</h3>
+                        <p>Premium beauty products to enhance your natural radiance</p>
+                        <a href="#" class="btn btn-outline">View Collection</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/beauty.jpeg" alt="Beauty Essentials" class="category-img">
+                    <div class="category-overlay">
+                        <h3>Beauty Essentials</h3>
+                        <p>Everything you need for your daily beauty routine</p>
+                        <a href="#" class="btn btn-outline">View Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PRODUCTS SECTION ====== -->
+    <section class="products" id="shop">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <span class="product-badge">Sale</span>
+                    <div class="product-img-container">
+                        <img src="images/p1.jpeg" alt="Embroidered Lawn Suit" class="product-img">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Embroidered Lawn Suit</h3>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 4,999</span>
+                            <span class="old-price">Rs. 6,500</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(24)</span>
+                        </div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="images/p2.jpeg" alt="Premium Kajal" class="product-img">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Premium Kajal</h3>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 599</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(18)</span>
+                        </div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <span class="product-badge">New</span>
+                    <div class="product-img-container">
+                        <img src="images/p3.jpeg" alt="Herbal Face Cream" class="product-img">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Herbal Face Cream</h3>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 899</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(32)</span>
+                        </div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="images/p4.jpeg" alt="Silk Dupatta" class="product-img">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Silk Dupatta</h3>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 2,499</span>
+                            <span class="old-price">Rs. 3,200</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(15)</span>
+                        </div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- product 5 -->
+                 <div class="product-card">
+                <span class="product-badge">Bestseller</span>
+                <div class="product-img-container">
+                    <img src="images/p5.jpeg" alt="Pakistani Jewelry Set" class="product-img">
+                    <div class="product-actions">
+                        <button class="action-btn"><i class="fas fa-heart"></i></button>
+                        <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Traditional Jewelry Set</h3>
+                    <div class="product-price">
+                        <span class="current-price">Rs. 3,299</span>
+                        <span class="old-price">Rs. 4,200</span>
+                    </div>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(47)</span>
+                    </div>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- product 6 -->
+             <div class="product-card">
+                <span class="product-badge">New</span>
+                <div class="product-img-container">
+                    <img src="images/p6.jpeg" alt="Herbal Hair Oil" class="product-img">
+                    <div class="product-actions">
+                        <button class="action-btn"><i class="fas fa-heart"></i></button>
+                        <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Herbal Hair Oil</h3>
+                    <div class="product-price">
+                        <span class="current-price">Rs. 799</span>
+                    </div>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(29)</span>
+                    </div>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== BANNER SECTION ====== -->
+    <section class="banner">
+        <div class="container banner-content">
+            <h2>Summer Sale!</h2>
+            <p>Get up to 40% off on selected Pakistani dresses and beauty products. Limited time offer!</p>
+            <a href="#" class="btn">Shop the Sale</a>
+        </div>
+    </section>
+
+    <!-- ====== TESTIMONIALS SECTION ====== -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-slider" id="testimonialSlider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <img src="images/t1.jpeg" alt="Customer" class="testimonial-img">
+                        <p class="testimonial-text">"The Pakistani dresses from Sabia are absolutely stunning! The quality exceeded my expectations and the prices are so reasonable. I've already placed my second order!"</p>
+                        <div class="testimonial-author">- Ayesha Khan</div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <img src="images/t2.jpeg" alt="Customer" class="testimonial-img">
+                        <p class="testimonial-text">"I'm in love with their cosmetics line. The kajal is the best I've ever used - doesn't smudge even in humid weather. Highly recommend Sabia for all your beauty needs!"</p>
+                        <div class="testimonial-author">- Fatima Ahmed</div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <img src="images/t3.jpeg" alt="Customer" class="testimonial-img">
+                        <p class="testimonial-text">"The herbal face cream has transformed my skin in just 2 weeks! So glad I discovered Sabia - affordable luxury that actually delivers on its promises."</p>
+                        <div class="testimonial-author">- Zara Malik</div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn active" data-index="0"></button>
+                    <button class="slider-btn" data-index="1"></button>
+                    <button class="slider-btn" data-index="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== NEWSLETTER SECTION ====== -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="section-title">Join Our Community</h2>
+            <p>Subscribe to our newsletter and get 15% off your first order, plus exclusive access to new collections and special offers.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" class="newsletter-input" required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Sabia</h4>
+                    <p>Bringing you the finest Pakistani fashion and beauty products at affordable prices. Celebrate tradition with modern elegance.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Pakistani Dresses</a></li>
+                        <li><a href="#">Cosmetics</a></li>
+                        <li><a href="#">Beauty Essentials</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Sale Items</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Sabia. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
